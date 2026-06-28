@@ -5,6 +5,7 @@
 
 # Reproducing Optical Density (OD) data from Introduction of the β-hydroxyaspartate cycle in Synechococcus elongatus PCC 794
 An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837) is employed to reproduce experimentally obtained optical density (OD) data and evaluate how the introduction of a new pathway, the β-hydroxyaspartate cycle, reprograms photorespiration metabolism.
+
 # License
 MIT License
 Copyright (c) 2026 Reihaneh Mostolizadeh and MSBIDynamics - Justus Liebig University Giessen and Max Planck Institute for Terrestrial Microbiology
