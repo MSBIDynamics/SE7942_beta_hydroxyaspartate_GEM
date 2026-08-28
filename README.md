@@ -6,21 +6,17 @@
 An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837) is employed to reproduce experimentally obtained optical density (OD) data and evaluate how the introduction of a new pathway, the β-hydroxyaspartate cycle, reprograms photorespiration metabolism.
 
 
-## Table of Contents
+# Table of Contents
 -----
 1. [Project Structure](#project-structure)
-4. [Installation](#installation)
-5. [Quick Start](#quick-start)
-6. [Workflow Pipeline](#workflow-pipeline)
-7. [Module Documentation](#module-documentation)
-8. [Output Files](#output-files)
-9. [Sensitivity Analysis](#sensitivity-analysis)
-10. [Configuration](#configuration)
-11. [References](#references)
+2. [Installation](#installation)
+3. [Citation](#Cite)
+4. [Contact](#Contact)
+5. [Licence](#Licence)
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```
 GEM_HMPV-Host_Interactions/
@@ -36,7 +32,7 @@ GEM_HMPV-Host_Interactions/
 │   └── metabolic_map_BiGG_ID_Added.pdf     # Metabolic map including core reactions, plus introducing a new pathway
 │
 ├── output/                                 # Generated output files
-│  ├── hmpv_vbof.json                       # Raw VBOF stoichiometry
+│   ├── hmpv_vbof.json                      # Raw VBOF stoichiometry
 │   ├── hmpv_vbof_normalized.json           # Normalized VBOF
 │   ├── hmpv_vbof_summary.txt               # Human-readable VBOF summary
 │   ├── iHsaEC21_CLEAN_with_HMPV_VBOF.xml   # Integrated model
@@ -46,7 +42,7 @@ GEM_HMPV-Host_Interactions/
 ```
 ---
 
-## Installation
+# Installation
 
 To run the main analysis, FBA.ipynb, Python 3.10 or higher and Python package manager (pip) are prerequisites:
 
@@ -60,6 +56,12 @@ To run the main analysis, FBA.ipynb, Python 3.10 or higher and Python package ma
 - **matplotlib** (3.10.9): Visualization with Python
 
 #### 2- Simply run the code, as the first command line in FBA.ipynb Install required packages. You need to run it only once. 
+
+
+# Contact 
+**Author**: Reihaneh Mostolizadeh
+
+For questions or issues, please email Reihaneh.Mostolizadeh@computational.bio.uni-giessen.de.
 
 # License
 MIT License
