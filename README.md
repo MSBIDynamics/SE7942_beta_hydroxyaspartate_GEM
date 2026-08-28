@@ -1,10 +1,65 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Repo Size](https://img.shields.io/github/repo-size/MSBIDynamics/HMPV-Host-VBOF)
-![GitHub release (with filter)](https://img.shields.io/github/v/release/MSBIDynamics/HMPV-Host-VBOF?logo=github&label=HMPV-Host-VBOFs&color=B4A069&style=flat-square)
 [![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8270303-B4A069?style=flat-square&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20628356)
 
 # Reproducing Optical Density (OD) data from Introduction of the β-hydroxyaspartate cycle in Synechococcus elongatus PCC 794
 An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837) is employed to reproduce experimentally obtained optical density (OD) data and evaluate how the introduction of a new pathway, the β-hydroxyaspartate cycle, reprograms photorespiration metabolism.
+
+
+## Table of Contents
+-----
+1. [Project Structure](#project-structure)
+4. [Installation](#installation)
+5. [Quick Start](#quick-start)
+6. [Workflow Pipeline](#workflow-pipeline)
+7. [Module Documentation](#module-documentation)
+8. [Output Files](#output-files)
+9. [Sensitivity Analysis](#sensitivity-analysis)
+10. [Configuration](#configuration)
+11. [References](#references)
+
+---
+
+## Project Structure
+
+```
+GEM_HMPV-Host_Interactions/
+├── src/                                     # Core module
+│   ├── FBA.ipynb                            # main analysis
+│
+├── Data/                                    # Required data
+│   ├── BG11.csv/                            # medium defined for COBRApy 
+│   ├── growth_experimental_data.xlsx/       # growth experimental data used for reproducing the data from the model        
+│
+├── docs/                                   # Documentation
+│   ├── Changes_on_Model.pdf                # All changes implemeneted on the model are summerized in this file. 
+│   └── metabolic_map_BiGG_ID_Added.pdf     # Metabolic map including core reactions, plus introducing a new pathway
+│
+├── output/                                 # Generated output files
+│  ├── hmpv_vbof.json                       # Raw VBOF stoichiometry
+│   ├── hmpv_vbof_normalized.json           # Normalized VBOF
+│   ├── hmpv_vbof_summary.txt               # Human-readable VBOF summary
+│   ├── iHsaEC21_CLEAN_with_HMPV_VBOF.xml   # Integrated model
+│   ├── antiviral_analysis/                 # Antiviral target analysis results
+│   └── sensitivity_analysis/               # Sensitivity analysis results
+└── README.md                               # Current file
+```
+---
+
+## Installation
+
+To run the main analysis, FBA.ipynb, Python 3.10 or higher and Python package manager (pip) are prerequisites:
+
+### 1- make a condo environmet with all following requirements:
+
+- **numpy** (2.2.6): Numerical computations
+- **pandas** 2.3.3): Data manipulation and analysis
+- **scipy** (≥1.15.3): Scientific computing
+- **cobra** (0.31.1): Constraint-based metabolic modeling (COBRApy)
+- **openpyxl** (3.1.5): A Python library to read/write Excel 2010 xlsx/xlsm files
+- **matplotlib** (3.10.9): Visualization with Python
+
+#### 2- Simply run the code, as the first command line in FBA.ipynb Install required packages. You need to run it only once. 
 
 # License
 MIT License
