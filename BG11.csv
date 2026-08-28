@@ -1,0 +1,23 @@
+Compound;BiGG;ModelSeed;KEGG
+Sodium;na1;cpd00971;C01330
+Nitrate;no3;cpd00209;C00244
+Magnesium;mg2;cpd00254;C00305
+EDTA;;;
+Ferric iron;fe3;cpd10516;C14819
+Ammonium;nh4;cpd00013;C01342
+Calcium;ca2;cpd00063;C00076
+Chloride;cl;cpd00099;C00698
+Citrate;cit;cpd00137;C00158
+Sulfate;so4;cpd00048;C00059
+Potassium;k;cpd00205;C00238
+Phosphate;pi;cpd00009;C00009
+Bicarbonate;hco3;cpd00242;C00288
+Manganese;mn2;cpd00030;C00034
+Zinc;zn2;cpd00034;C00038
+Copper;cu2;cpd00058;C00070
+Cobalt;cobalt2;cpd00149;C00175
+Molybdate;mobd;cpd11574;C06232
+Carbon dioxide;co2;cpd00011;C00011
+Oxygen;o2;cpd00007;C00007
+Water;h2o;cpd00001;C00001
+H+;h;cpd00067;C00080
