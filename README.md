@@ -46,7 +46,7 @@ GEM_HMPV-Host_Interactions/
 
 To run the main analysis, FBA.ipynb, Python 3.10 or higher and Python package manager (pip) are prerequisites:
 
-### 1- make a condo environmet with all following requirements:
+### 1- make a conda environmet with all following requirements:
 
 - **numpy** (2.2.6): Numerical computations
 - **pandas** 2.3.3): Data manipulation and analysis
