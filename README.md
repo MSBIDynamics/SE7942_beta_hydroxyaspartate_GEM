@@ -1,7 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Repo Size](https://img.shields.io/github/repo-size/MSBIDynamics/HMPV-Host-VBOF)
-[![Zenodo DOI](https://zenodo.org/badge/1283378017.svg)](https://doi.org/10.5281/zenodo.22261626)
-[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8270303-B4A069?style=flat-square&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22261626)
 [![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8270303-blue?style=flat-square&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22261626)
 
 # Reproducing Optical Density (OD) data from Introduction of the β-hydroxyaspartate cycle in Synechococcus elongatus PCC 794
