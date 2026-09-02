@@ -21,7 +21,7 @@ An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837
 ```
 Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 ├── src/                                                # Core module
-│    └── FBA.ipynb                                         # Main analysis
+│    └── dFBA.ipynb                                         # Main analysis
 │
 ├── Data/                                                  # Required data
 │   ├── BG11.csv/                                          # Medium defined for COBRApy 
@@ -42,9 +42,9 @@ Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 
 # Installation
 
-To run the main analysis, FBA.ipynb, Python 3.10 or higher and Python package manager (pip) are prerequisites:
+To run the main analysis, dFBA.ipynb, Python 3.10 or higher and Python package manager (pip) are prerequisites:
 
-### 1- Simply run the code, as the first command line in FBA.ipynb includes Install required packages. You need to run this first cell including packages only once.
+### 1- Simply run the code, as the first command line in dFBA.ipynb includes Install required packages. You need to run this first cell including packages only once.
 
 ### 2- Make a conda environmet with all following requirements:
 
