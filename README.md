@@ -15,6 +15,7 @@ An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837
 
 
 # Project Structure
+```
 Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 ├── src/                                                # Core module
 │    └── dFBA.ipynb                                         # Main analysis
@@ -33,7 +34,7 @@ Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 │   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.pdf  # The same figure as above including error bar as pdf
 │   └── dFBA_Light_self_shading_Beer_Lambert.xlsx          # The excel file including the experimental and regenarated data                            
 └── README.md                                           # Current file
- 
+ ```
 
 # Installation
 To run the main analysis, dFBA.ipynb, Python 3.10 or higher and Python package manager (pip) are prerequisites:
