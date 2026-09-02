@@ -3,7 +3,7 @@
 [![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8270303-blue?style=flat-square&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22261626)
 
 # Reproducing Optical Density (OD) data from Introduction of the β-hydroxyaspartate cycle in Synechococcus elongatus PCC 794
-An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837) is employed to reproduce experimentally obtained optical density (OD) data and evaluate how the introduction of a new pathway, the β-hydroxyaspartate cycle, reprograms photorespiration metabolism.
+This repository contains an existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837), modified to correspond with the metabolic map presented herein. The β-hydroxyaspartate cycle has been integrated into the model, together with a dynamic flux balance analysis (FBA) framework that incorporates light attenuation and self-shading. This methodology enables reproduction of experimentally measured optical density (OD) data and supports assessment of the impact of the β-hydroxyaspartate cycle on photorespiratory metabolism.
 
 
 # Table of Contents
@@ -38,6 +38,7 @@ Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 └── README.md                                           # Current file
  ```
 
+
 # Installation
 To run the main analysis, dFBA.ipynb, Python 3.10 or higher and Python package manager (pip) are prerequisites:
 
@@ -51,12 +52,18 @@ To run the main analysis, dFBA.ipynb, Python 3.10 or higher and Python package m
 - **cobra** (0.31.1): Constraint-based metabolic modeling (COBRApy)
 - **openpyxl** (3.1.5): A Python library to read/write Excel 2010 xlsx/xlsm files
 - **matplotlib** (3.10.9): Visualization with Python
+
  
+# Citation
+If you use this model or the associated code in your research, please cite: 
+https://doi.org/10.5281/zenodo.22261626 
+
 
 # Contact 
 **Author**: Reihaneh Mostolizadeh
 
 For questions or issues, please email Reihaneh.Mostolizadeh@computational.bio.uni-giessen.de.
+
 
 # License
 MIT License
