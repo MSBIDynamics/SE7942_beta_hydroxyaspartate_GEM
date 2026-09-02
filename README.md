@@ -7,7 +7,6 @@ An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837
 
 
 # Table of Contents
------
 1. [Project Structure](#project-structure)
 2. [Installation](#installation)
 3. [Citation](#Cite)
@@ -16,7 +15,6 @@ An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837
 
 
 # Project Structure
----
 Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 ├── src/                                                # Core module
 │    └── dFBA.ipynb                                         # Main analysis
@@ -38,7 +36,6 @@ Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
  
 
 # Installation
----
 To run the main analysis, dFBA.ipynb, Python 3.10 or higher and Python package manager (pip) are prerequisites:
 
 ### 1- Simply run the code, as the first command line in dFBA.ipynb includes Install required packages. You need to run this first cell including packages only once.
@@ -54,12 +51,10 @@ To run the main analysis, dFBA.ipynb, Python 3.10 or higher and Python package m
  
 
 # Contact 
----
 **Author**: Reihaneh Mostolizadeh
 
 For questions or issues, please email Reihaneh.Mostolizadeh@computational.bio.uni-giessen.de.
 
 # License
----
 MIT License
 Copyright (c) 2026 Reihaneh Mostolizadeh and MSBIDynamics - Justus Liebig University Giessen and Max Planck Institute for Terrestrial Microbiology
