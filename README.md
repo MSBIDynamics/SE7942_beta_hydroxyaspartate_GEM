@@ -19,24 +19,24 @@ An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837
 # Project Structure
 
 ```
-GEM_HMPV-Host_Interactions/
+Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 ├── src/                                                # Core module
-│   ├── FBA.ipynb                                          # Main analysis
+│    └── FBA.ipynb                                         # Main analysis
 │
 ├── Data/                                                  # Required data
 │   ├── BG11.csv/                                          # Medium defined for COBRApy 
 │   ├── growth_experimental_data.xlsx/                     # Growth experimental data used to reproduce data from model        
 │   └── iMS837_modified.xml  
-├── docs/                                                  # Documentation (not required for running code)
+├── docs/                                               # Documentation (not required for running code)
 │   ├── Changes_on_Model.pdf                               # All changes implemeneted on the model 
 │   └── metabolic_map_BiGG_ID_Added.pdf                    # Metabolic map including core reactions, and the new pathway
 │
-├── output/                                                # Generated output files
+├── output/                                             # Generated output files
 │   ├── dFBA_Light_self-shading_Beer_Lambert.png           # The figure including experimental and regenerated data in one
 │   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.png  # The same figure as above including error bar as png
 │   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.pdf  # The same figure as above including error bar as pdf
-│   ├── dFBA_Light_self_shading_Beer_Lambert.xlsx          # The excel file including the experimental and regenarated data                            
-└── README.md                                              # Current file
+│   └── dFBA_Light_self_shading_Beer_Lambert.xlsx          # The excel file including the experimental and regenarated data                            
+└── README.md                                           # Current file
 ```
 ---
 
