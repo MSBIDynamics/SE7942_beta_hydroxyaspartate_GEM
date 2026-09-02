@@ -18,7 +18,7 @@ An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837
 ```
 Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 ├── src/                                                # Core module
-│    └── dFBA.ipynb                                         # Main analysis
+│    └── dFBA.ipynb                                        # Main analysis
 │
 ├── Data/                                               # Required data
 │   ├── BG11.csv/                                          # Medium defined for COBRApy 
