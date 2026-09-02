@@ -21,24 +21,22 @@ An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837
 ```
 GEM_HMPV-Host_Interactions/
 ├── src/                                                # Core module
-│   ├── FBA.ipynb                                       # main analysis
+│   ├── FBA.ipynb                                          # Main analysis
 │
-├── Data/                                               # Required data
-│   ├── BG11.csv/                                       # medium defined for COBRApy 
-│   ├── growth_experimental_data.xlsx/                  # growth experimental data used for reproducing the data from the model        
+├── Data/                                                  # Required data
+│   ├── BG11.csv/                                          # Medium defined for COBRApy 
+│   ├── growth_experimental_data.xlsx/                     # Growth experimental data used to reproduce data from model        
 │   └── iMS837_modified.xml  
-├── docs/                                               # Documentation (not required for running code)
-│   ├── Changes_on_Model.pdf                            # All changes implemeneted on the model are summerized in this file. 
-│   └── metabolic_map_BiGG_ID_Added.pdf                 # Metabolic map including core reactions, plus introducing a new pathway
+├── docs/                                                  # Documentation (not required for running code)
+│   ├── Changes_on_Model.pdf                               # All changes implemeneted on the model 
+│   └── metabolic_map_BiGG_ID_Added.pdf                    # Metabolic map including core reactions, and the new pathway
 │
-├── output/                                             # Generated output files
-│   ├── dFBA_Light_self-shading_Beer_Lambert.png                      # Raw VBOF stoichiometry
-│   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.png           # Normalized VBOF
-│   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.pdf               # Human-readable VBOF summary
-│   ├── dFBA_Light_self_shading_Beer_Lambert   # Integrated model
-│   ├── antiviral_analysis/                 # Antiviral target analysis results
-│   └── sensitivity_analysis/               # Sensitivity analysis results
-└── README.md                               # Current file
+├── output/                                                # Generated output files
+│   ├── dFBA_Light_self-shading_Beer_Lambert.png           # The figure including experimental and regenerated data in one
+│   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.png  # The same figure as above including error bar as png
+│   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.pdf  # The same figure as above including error bar as pdf
+│   ├── dFBA_Light_self_shading_Beer_Lambert.xlsx          # The excel file including the experimental and regenarated data                            
+└── README.md                                              # Current file
 ```
 ---
 
@@ -46,17 +44,17 @@ GEM_HMPV-Host_Interactions/
 
 To run the main analysis, FBA.ipynb, Python 3.10 or higher and Python package manager (pip) are prerequisites:
 
-### 1- make a conda environmet with all following requirements:
+### 1- Simply run the code, as the first command line in FBA.ipynb includes Install required packages. You need to run this first cell including packages only once.
+
+### 2- Make a conda environmet with all following requirements:
 
 - **numpy** (2.2.6): Numerical computations
 - **pandas** 2.3.3): Data manipulation and analysis
-- **scipy** (≥1.15.3): Scientific computing
+- **scipy** (1.15.3): Scientific computing
 - **cobra** (0.31.1): Constraint-based metabolic modeling (COBRApy)
 - **openpyxl** (3.1.5): A Python library to read/write Excel 2010 xlsx/xlsm files
 - **matplotlib** (3.10.9): Visualization with Python
-
-#### 2- Simply run the code, as the first command line in FBA.ipynb Install required packages. You need to run it only once. 
-
+ 
 
 # Contact 
 **Author**: Reihaneh Mostolizadeh
