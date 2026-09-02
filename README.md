@@ -23,7 +23,7 @@ Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 ├── src/                                                # Core module
 │    └── dFBA.ipynb                                         # Main analysis
 │
-├── Data/                                                  # Required data
+├── Data/                                               # Required data
 │   ├── BG11.csv/                                          # Medium defined for COBRApy 
 │   ├── growth_experimental_data.xlsx/                     # Growth experimental data used to reproduce data from model        
 │   └── iMS837_modified.xml  
