@@ -20,22 +20,22 @@ An existing genome-scale model (GEM) of Synechococcus elongatus PCC 7942 (iMS837
 
 ```
 GEM_HMPV-Host_Interactions/
-├── src/                                     # Core module
-│   ├── FBA.ipynb                            # main analysis
+├── src/                                                # Core module
+│   ├── FBA.ipynb                                       # main analysis
 │
-├── Data/                                    # Required data
-│   ├── BG11.csv/                            # medium defined for COBRApy 
-│   ├── growth_experimental_data.xlsx/       # growth experimental data used for reproducing the data from the model        
+├── Data/                                               # Required data
+│   ├── BG11.csv/                                       # medium defined for COBRApy 
+│   ├── growth_experimental_data.xlsx/                  # growth experimental data used for reproducing the data from the model        
+│   └── iMS837_modified.xml  
+├── docs/                                               # Documentation (not required for running code)
+│   ├── Changes_on_Model.pdf                            # All changes implemeneted on the model are summerized in this file. 
+│   └── metabolic_map_BiGG_ID_Added.pdf                 # Metabolic map including core reactions, plus introducing a new pathway
 │
-├── docs/                                   # Documentation
-│   ├── Changes_on_Model.pdf                # All changes implemeneted on the model are summerized in this file. 
-│   └── metabolic_map_BiGG_ID_Added.pdf     # Metabolic map including core reactions, plus introducing a new pathway
-│
-├── output/                                 # Generated output files
-│   ├── hmpv_vbof.json                      # Raw VBOF stoichiometry
-│   ├── hmpv_vbof_normalized.json           # Normalized VBOF
-│   ├── hmpv_vbof_summary.txt               # Human-readable VBOF summary
-│   ├── iHsaEC21_CLEAN_with_HMPV_VBOF.xml   # Integrated model
+├── output/                                             # Generated output files
+│   ├── dFBA_Light_self-shading_Beer_Lambert.png                      # Raw VBOF stoichiometry
+│   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.png           # Normalized VBOF
+│   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.pdf               # Human-readable VBOF summary
+│   ├── dFBA_Light_self_shading_Beer_Lambert   # Integrated model
 │   ├── antiviral_analysis/                 # Antiviral target analysis results
 │   └── sensitivity_analysis/               # Sensitivity analysis results
 └── README.md                               # Current file
