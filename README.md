@@ -37,8 +37,7 @@ Addition a New Pathway to the GEM of Synechococcus elongatus PCC 7942
 │   ├── errorbar_dFBA_Light_self-shading_Beer_Lambert.pdf  # The same figure as above including error bar as pdf
 │   └── dFBA_Light_self_shading_Beer_Lambert.xlsx          # The excel file including the experimental and regenarated data                            
 └── README.md                                           # Current file
-```
----
+
 
 # Installation
 
